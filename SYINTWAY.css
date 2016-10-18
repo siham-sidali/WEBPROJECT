@@ -1,0 +1,89 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+#BG {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('img/Background.jpg');
+	background-size: 100% 100%;
+	top: 25%;
+	z-index: -5;
+}
+#Logo img{
+	position: absolute;
+	top: 0%;
+	width: 15%;
+	height: 25%; 
+}
+nav {
+	position: absolute;
+	display: inline;
+	top: 0%;
+	width: 70%;
+	left: 25%;
+	padding-top: 5%;
+	
+}
+nav img {
+	position: relative;
+	display: inline;
+	width: 15%;
+}
+nav img:first-child { padding-right: 3%; }
+#flag {position: absolute; top:3%; right: 0; width: 5%;}
+#flag img {width: 100%; margin-top: 1%;}
+
+#hoverMenu {position: absolute; display: block; width: 15%; left: 75%; top: 50%; height: 100%; }
+#downloadBtn {cursor: pointer;}  #hoverMenu:hover img {display: inline;}
+#hoverMenu img {position: relative; width: 80%; top:50%; display:none; }
+
+#container {
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	top: 30%;
+	text-align: center;
+}
+#container h1, #container p{
+  position: relative;
+  color: darkgreen;
+  font-size: 3vw;
+}
+#container p {font-size: 2vw; }
+
+#Content {position: absolute; background-color: #DBEBE3; top: 25%; width: 100%; height: 100%; 
+	text-align: center; z-index: -1; overflow: auto;}
+#Content h1 {color: darkgreen;}
+.cour{position: relative;}
+#Content article {position: absolute; width: 30%; height: 60%;  text-align: justify; padding-top: 2%;  }
+article h1 {text-align: center; padding-bottom: 2%;}
+article p {font-size: 2em; }
+#Content #first { left:4%; } #first p {margin-right: 5%; }
+#Content #second { left: 35%; } #second p {margin-right: 5%; }
+#Content #third { right: 4%; text-align: right;} #third p { padding-top: 10%;}
+.lev1{position: relative;top: 60%}
+#Content #level1 { left:4%; } #level1 p {margin-right: 5%; }
+#Content #level2 { left: 35%;} #level2 p {margin-right: 5%; }
+#Content #level3 { right: 4%; } #level3 p { padding-top: 10%;}
+footer {
+	position: absolute;
+	
+	top: 125%;
+	width: 100%;
+	
+}
+footer h5,p {position: relative; margin-left: 3%; margin-top: 1%;}
+footer h4 { position: absolute; margin-left: 10%; top: 0%; width: 50%; }
+footer p { left: 0; font-size: 1.1vw }
+
+a:link { color: black; }
+a:active { color: black; }
+a:hover { color: black; }
+a:visited { color: black; }
+@media screen and (max-width: 1300px) {
+	footer p {font-size: 2vw;}
+}
